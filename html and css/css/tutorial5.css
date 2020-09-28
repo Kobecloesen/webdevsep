@@ -5,5 +5,18 @@
 
 .second{ 
 
-    font-size:yellow;
+    font-size:2rem
+}
+
+.third{
+
+    color:yellow;
+}
+
+
+.myCustomCss {
+
+    background-color: grey;
+    color:yellow;
+    font-size: large;
 }
