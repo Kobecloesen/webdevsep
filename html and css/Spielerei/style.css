@@ -1,0 +1,47 @@
+/* globals */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: moterrat, sans-serif;
+}
+
+/* header */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+.header a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 2rem;
+}
+
+.menu-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items li a {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.menu-items li a:hover{
+    background-color: #ccc7d3;
+}
