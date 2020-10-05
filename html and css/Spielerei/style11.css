@@ -1,0 +1,39 @@
+div{
+    background-color: burlywood;
+    width: 500px ;
+    padding: 10px
+}
+
+div p{
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+
+p.test {
+    width: 29%;
+    height: 15%;
+    overflow: hidden;
+    border-style: dotted;
+    visibility: visible;
+    border-image: url(https://www.tomswallpapers.com/images/201507/tomswallpapers.com_28604.jpg) 11 11 round;
+    border-width: 7px;
+    -webkit-box-shadow: 11px 8px 5px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 11px 8px 5px 0px rgba(0, 0, 0, 0.47);
+}
+
+.b{
+    width: 30%;
+    overflow-wrap: normal;
+    border-image: url(https://www.tomswallpapers.com/images/201507/tomswallpapers.com_28604.jpg) 11 11 round;
+    border-width: 7px;
+    box-shadow: 6px 10px 6px #A4665F;;
+}
+
+p.a{
+    width: 50%;
+    height: 200px;
+    overflow: scroll;
+    border-width: 10px;
+    border-image: url(https://www.deviantart.com/thisdestroys/art/Retro-Red-Lines-295154481);
+}

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
+
+body{
+    font-family: moterrat, sans-serif;
+}
+div{
+    color: darkblue;
+}
+div > p {
+    background-color: darkred;
+}
+div + p{
+    text-shadow: darkturquoise 5px 5px 5px;
+    color: deeppink;
+}
