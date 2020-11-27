@@ -30,7 +30,7 @@ getDataFromStorage.addEventListener('click', function(e){
                 value:value
             }
             sessionData.push(temp)
-            output.innerHTML+=`Key:${key} Value:${value}<br>`
+            output.innerHTML+=`Key:${key} Value:${value}<br><br>`
     }
     console.log(sessionData)
     e.preventDefault(e)
