@@ -1,0 +1,18 @@
+{
+  "name": "GoogleDorker",
+  "version": "1.0.0",
+  "main": "GoogleDork.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-it": "^1.6.0",
+    "google-search": "0.0.5",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
