@@ -14,6 +14,6 @@ app.get('/',homeController)
 
 app.get('/api',apiController)
 
-app.listen(3003,()=>{
+app.listen(3006,()=>{
     console.log('Server is running...')
 })
