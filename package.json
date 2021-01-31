@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Kobecloesen/desktop-tutorial#readme",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "cors": "^2.8.5",
-    "ejs": "^3.1.5"
+    "ejs": "^3.1.5",
+    "reactstrap": "^8.9.0"
   }
 }
