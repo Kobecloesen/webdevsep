@@ -1,22 +1,22 @@
 import React, {useState} from 'react';
 const api = {
-  //key: "da715407ae031b4d63dffbe89af38921",
+  key: "da715407ae031b4d63dffbe89af38921",
   base: "https://api.openweathermap.org/data/2.5/"}
 
 function App() {
-
   const[query, setQuery] = useState('');
-  //const[weather, setWeather] = useState({});
+  const[weather, setWeather] = useState({});
 
   const search = evt => {
     if (evt.key === "Enter") {
-      fetch(`${api.base}weather?q=${query}&units=metric&appid=da715407ae031b4d63dffbe89af38921`)
+      fetch(`${api.base}weather?q=${query}&units=metric&appid=${api.key}`)
       .then(res => res.json())
       .then(result => {
-        setQuery('')
-        //setWeather(result)
-        console.log(result)
-      })
+            setWeather(result);  
+            setQuery('');
+
+        console.log(result);
+      });
     }
   }
 
@@ -33,32 +33,37 @@ function App() {
     return `${day} ${date} ${month} ${year}`
   }
 
+  
   return (
     <div className="app">
       <main>
         <div className="search-box">
-          <input type="text" 
+          <input 
+            type="text" 
             className="search-bar"
             placeholder="search..."
             onChange={e => setQuery(e.target.value)}
             value={query}
-            onKeyPress={search}/>
+            onKeyPress={search}
+          />
             
         </div>
+        {(typeof weather.main != "undefined") ? (
         <div>
           <div className="location-box">
-            <div className="location">Brussel, Belgium</div>
+            <div className="location">{weather.name}, {weather.sys.country}</div>
             <div className="date">{dateBuilder(new Date())}</div>
           </div>
           <div className="weather-box">
             <div className="temp">
-              15°C
+              {Math.round(weather.main.temp)}°c
             </div>
             <div className="weather">
-              Sunny
+              {weather.weather[0].main}
             </div>
           </div>
         </div>
+        ) : ('')}
       </main>
 
     </div>
