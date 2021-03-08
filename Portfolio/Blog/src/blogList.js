@@ -1,26 +1,22 @@
 import { Link } from "react-router-dom";
+import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import React from "react";
+
 
 const BlogList = ({blogs, title}) => {
+    return(
+        <Row>
+            <Col sm='3'>
+                <Card body>
+                <CardTitle tag="h5">Special Title Treatment</CardTitle>
+                <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                <Button>Go somewhere</Button>
+                </Card>
+            </Col>
+        </Row>
+    )
 
-
-    return ( 
-        <div class="container-fluid">
-           <div class="row">
-               <div class="col-xs-12 col-md-6 col-lg-3">
-                   <div class="card">
-                       <img class="card-img-top" src="http://placehold.it/250x150" alt="card image cap"></img>
-                       <div class="card-block">     
-                        <h4 class="card-title" >card title</h4>
-                        <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                       </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 minutes ago</small>
-                    </div>
-                   </div>
-               </div>
-           </div>
-        </div>
-     );
+    
 }
 
 {/* <div className="blog-list">
