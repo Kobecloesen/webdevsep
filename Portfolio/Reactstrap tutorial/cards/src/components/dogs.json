@@ -1,0 +1,31 @@
+{
+    "dogs":[
+        
+        {
+            "Naam": "Pup",
+            "Ras": "Mechelse Scheper",
+            "Geslacht": "Reu",
+            "Leeftijd": 7,
+            "Plaats": "Mol",
+           
+            "id": 1
+        },
+        {
+            "Naam": "Pup",
+            "Ras": "Mechelse Scheper",
+            "Geslacht": "Reu",
+            "Leeftijd": 7,
+            "Plaats": "Mol",
+            "id": 2
+        },
+        {
+            "Naam": "Pup",
+            "Ras": "Mechelse Scheper",
+            "Geslacht": "Reu",
+            "Leeftijd": 7,
+            "Plaats": "Mol",
+            "id": 3
+        }
+        
+    ]
+}
