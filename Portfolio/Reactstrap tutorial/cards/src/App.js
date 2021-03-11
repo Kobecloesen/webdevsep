@@ -5,7 +5,7 @@ import './index.css';
 import {useEffect, useState} from 'react';
 
 
-import {Button, Alert, Breadcrumb, Card, Container, Row, Col, CardColumns} from 'react-bootstrap';
+import {Button, Alert, Card, Container, Row, Col, CardColumns} from 'react-bootstrap';
 
 const Dogs = () => {
   const [dogs, setDogs] = useState([
@@ -30,7 +30,8 @@ const Dogs = () => {
                     <Card.Text className="Geslacht text-dark Leeftijd"> {dog.Geslacht} - {dog.Leeftijd} jaar </Card.Text>
                        
                   </Card.Body>
-                    <Card.Footer className="Plaats" variant="danger" style={{textAlign:'center',}}> {dog.Plaats} </Card.Footer>                    
+                    <Card.Footer className="Plaats" variant="danger" style={{textAlign:'center',}}> {dog.Plaats} </Card.Footer> 
+                                       
                 </Card>
  
           </div>  
