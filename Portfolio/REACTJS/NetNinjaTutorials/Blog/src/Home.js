@@ -3,7 +3,7 @@ import BlogList from './blogList';
 import useFetch from './useFetch';
 
 const Home = () => {
-    const {blogs}  = useFetch('http://localhost:8000/blogs');
+    const {blogs}  = useFetch('http://localhost:8000/blogs')
     
 
 
@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <div className="home">
-          {blogs && <BlogList blogs={blogs} title="All Blogs!"/>   }      
+          {blogs && <BlogList blogs={blogs} title={blogs}/>   }      
         </div>
       );
 }
