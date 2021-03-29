@@ -31,6 +31,7 @@ const Dogs = () => {
                        
                   </Card.Body>
                     <Card.Footer className="Plaats" variant="danger" style={{textAlign:'center',}}> {dog.Plaats} </Card.Footer> 
+                    
                                        
                 </Card>
  

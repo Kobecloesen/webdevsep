@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    background: #ddd;
+    
+    flex-wrap: wrap;
+  }
+  
+  .pattern {
+    width: 240px;
+    height: 240px;
+    margin: 20px;
+    flex: 0 0 auto;
+  }
+  
+  .polka {
+      background:
+          radial-gradient(#655197 2px, transparent 3px),
+          radial-gradient(#655197 2px, transparent 3px),
+          #fff;
+      background-position: 0 0, 20px 20px;
+      background-size: 40px 40px;
+  }
+  
+  .stripes {
+      background: linear-gradient(-45deg,
+        #655197 25%,
+        #ffffff 25.1%,
+        #ffffff 50%,
+        #655197 50.1%,
+        #655197 75%,
+        #ffffff 75.1%,
+        #ffffff 0);
+      background-size: 40px 40px;
+  }
+  
+  .zig {
+    background:
+      linear-gradient(135deg,
+        #655197 25%,
+        rgba(0,0,0,0) 25.1%),
+      linear-gradient(225deg,
+        #655197 25%,
+        rgba(0,0,0,0) 25.1%),
+      linear-gradient(315deg,
+        #655197 25%,
+        rgba(0,0,0,0) 25.1%),
+      linear-gradient(45deg,
+        #655197 25%,
+        rgba(0,0,0,0) 25.1%),
+      #ffffff;
+    background-size: 40px 40px;
+    background-position: -20px 0, -20px 0, 0 0, 0 0;
+  }
+  
+  .diamond {
+    background-size: 20px 20px;
+    background-position: -20px 0, -20px 0, 0 0, 0 0;
+  }
+  
+  .pat5 {
+    background-image: 
+      linear-gradient(45deg, #655197 50%, transparent 50.1%),
+      linear-gradient(
+      #ffffff,
+      #ffffff 6px,
+      #655197 6px,
+      #655197
+    );
+    background-size: 100%, 100% 12px;
+  }
+  
+
+  
