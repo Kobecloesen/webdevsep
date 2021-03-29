@@ -1,0 +1,111 @@
+
+  \{^_^}/ hi!
+
+  Loading data/db.json
+  Done
+
+  Resources
+  http://localhost:8000/blogs
+
+  Home
+  http://localhost:8000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+[0mGET /blogs [32m200[0m 7.010 ms - -[0m
+[0mPOST /blogs [32m201[0m 34.083 ms - 83[0m
+[0mPOST /blogs [32m201[0m 4.808 ms - 78[0m
+[0mPOST /blogs [32m201[0m 9.596 ms - 78[0m
+[0mPOST /blogs [32m201[0m 5.001 ms - 78[0m
+[0mPOST /blogs [32m201[0m 4.331 ms - 78[0m
+[0mPOST /blogs [32m201[0m 8.188 ms - 78[0m
+[0mPOST /blogs [32m201[0m 2.901 ms - 79[0m
+[0mPOST /blogs [32m201[0m 3.912 ms - 79[0m
+[0mPOST /blogs [32m201[0m 2.716 ms - 79[0m
+[0mPOST /blogs [32m201[0m 28.160 ms - 79[0m
+[0mPOST /blogs [32m201[0m 7.987 ms - 79[0m
+[0mPOST /blogs [32m201[0m 3.731 ms - 79[0m
+[0mGET /blogs [32m200[0m 9.950 ms - -[0m
+[0mGET /blogs/15 [32m200[0m 15.749 ms - 79[0m
+[0mGET /blogs [36m304[0m 7.645 ms - -[0m
+  data/db.json has changed, reloading...
+
+  Loading data/db.json
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  Done
+
+  Resources
+  http://localhost:8000/blogs
+
+  Home
+  http://localhost:8000
+
+  data/db.json has changed, reloading...
+
+  Loading data/db.json
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  Done
+
+  Resources
+  http://localhost:8000/blogs
+
+  Home
+  http://localhost:8000
+
+  Error reading C:\Users\cloes\OneDrive\Desktop\SCHOOL\WebDevSep\REACTJS\NetNinjaTutorials\Blog\data\db.json
+  Read error has been fixed :)
+  data/db.json has changed, reloading...
+
+  Loading data/db.json
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  Done
+
+  Resources
+  http://localhost:8000/blogs
+
+  Home
+  http://localhost:8000
+
+[0mGET /blogs [32m200[0m 12.075 ms - -[0m
+[0mGET /blogs [36m304[0m 5.376 ms - -[0m
+[0mPOST /blogs [32m201[0m 6.450 ms - 94[0m
+[0mGET /blogs [32m200[0m 8.853 ms - -[0m
+  data/db.json has changed, reloading...
+
+  Loading data/db.json
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  data/db.json has changed, reloading...
+  Done
+
+  Resources
+  http://localhost:8000/blogs
+
+  Home
+  http://localhost:8000
+
+[0mGET /blogs [32m200[0m 16.913 ms - -[0m
+[0mGET /blogs [36m304[0m 5.071 ms - -[0m
+[0mGET /blogs [32m200[0m 32.452 ms - -[0m
+[0mGET /blogs/1 [32m200[0m 6.371 ms - 525[0m
+[0mGET /blogs [36m304[0m 4.191 ms - -[0m
+[0mGET /blogs/1 [32m200[0m 10.217 ms - 525[0m
+[0mGET /blogs [32m200[0m 3.091 ms - -[0m
+[0mGET /blogs [36m304[0m 8.058 ms - -[0m
+[0mGET /blogs [36m304[0m 3.298 ms - -[0m
+[0mGET /blogs [36m304[0m 4.863 ms - -[0m
+[0mGET /blogs [36m304[0m 5.837 ms - -[0m
+[0mGET /blogs [36m304[0m 4.385 ms - -[0m
+[0mGET /blogs [36m304[0m 4.387 ms - -[0m
+[0mGET /blogs [36m304[0m 4.853 ms - -[0m
+[0mGET /blogs [36m304[0m 4.336 ms - -[0m
+[0mGET /blogs [36m304[0m 4.638 ms - -[0m
+[0mGET /blogs [36m304[0m 4.008 ms - -[0m
+[0mGET /blogs [36m304[0m 6.428 ms - -[0m
+[0mGET /blogs [32m200[0m 5.140 ms - -[0m
