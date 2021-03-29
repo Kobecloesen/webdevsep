@@ -14,11 +14,15 @@ render() {
         <div className="row">
           <div className="col-md-12">
             <Router>
-              <Navbar bg="light" variant="light" expand="lg" sticky="top">
-                <Navbar.Brand className="test" href="/"><b>Happytails</b></Navbar.Brand>
+              <Navbar bg="light" variant="light" expand="lg" sticky="top" >
+                <a className="navBar-brand" href="/adopt"><img src="images/logo_happytails.png"  className="logoclass"/></a>
+                <Navbar.Brand className="test"  >
+                  <b>Happytails</b>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
+                    <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/adopt">Adopt</Nav.Link>
                     <Nav.Link href="/blog">Blog</Nav.Link>
                     <Nav.Link href="/aboutus">About</Nav.Link>
