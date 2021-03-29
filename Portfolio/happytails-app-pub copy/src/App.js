@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
 
 } from "react-router-dom";
 
@@ -20,11 +21,13 @@ function App() {
         <div>
           <Navbar />
         </div>
+        <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/adopt' component={Adopt} />
         <Route path='/blog' component={Blog} />
         <Route path='/aboutus' component={Aboutus} />
         <Route path='/contact' component={Contact} />
+        </Switch>
       </Router>
     
     

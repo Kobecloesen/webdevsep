@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../components/images/logo_happytails.png'
+//import photo from '/Portfolio/happytails-app-pub/public/images/logo_happytails.png'
 import { Dogs, HomePageHeader } from "../dogs"
 
 
