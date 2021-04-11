@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+ * {
+    font-family: "Quicksand";
+   
+
+    
+  }
+  .navbar {
+    padding: 15px;
+    
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 3px solid #f2f2f2;
+    text-decoration: none;
+    
+  }
+  .navbar h1 {
+    color: #f06d56;
+    font-family: "Permanent Marker";
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .navbar a:hover {
+    color: #ec654d;
+  }
+  .content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  /*Footer*/
+
+   .footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #ec654d;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    
+  }
+
+  .footer .row{
+    margin-bottom: 0.5rem;
+  }
+
+  .footer .contact {
+    margin-bottom: 1em;
+    position: relative;
+    
+  }
+
+  .footer .icons{
+    fill: white;
+   margin-left: 5px;
+   margin-right: 5px;
+    
+  }  
+
+
+
